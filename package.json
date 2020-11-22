@@ -1,0 +1,24 @@
+{
+  "name": "sqlengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:sqlengine": "jest ./sqlengine --watch --coverage",
+    "test:parser": "jest ./parserCheck --watch --coverage"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.15"
+  }
+}
